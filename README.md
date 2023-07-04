@@ -5,7 +5,7 @@ This is a fork of [nanoGPT](https://github.com/karpathy/nanoGPT) that adds integ
 
 ## Code Changes
 
-See [this commit](https://github.com/nfergu/nano_aim/commit/a64d9513d8ceee81874e529e5e633d5a61eeef99) for the code changes required to track training in Aim.
+See [this commit](https://github.com/nfergu/nano_aim/commit/a64d9513d8ceee81874e529e5e633d5a61eeef99) for the code changes made to nanoGPT to track experiments in Aim.
 
 ## Getting Started
 
