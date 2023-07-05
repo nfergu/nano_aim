@@ -286,7 +286,7 @@ while True:
             # These stats aren't meaningful on the first iteration, so don't save them
             run.track({
                 "Learning Rate": lr,
-                "MFU": running_mfu * 100,  # convert to percentage
+                "MFU %": running_mfu * 100,  # convert to percentage
             }, step=iter_num)
         if losses['val'] < best_val_loss or always_save_checkpoint:
             best_val_loss = losses['val']
@@ -301,7 +301,7 @@ while True:
                 }
                 print(f"saving checkpoint to {out_dir}")
                 torch.save(checkpoint, os.path.join(out_dir, 'ckpt.pt'))
-            run.track(best_val_loss, name='Best Validation Loss', step=iter_num, context={"subset": "train"})
+            run.track(best_val_loss, name='Best Validation Loss', step=iter_num)
     if iter_num == 0 and eval_only:
         break
 
@@ -362,7 +362,7 @@ while True:
             ))
 
             aim_figure = Figure(fig)
-            run.track(aim_figure, name=name, step=iter_num)
+            run.track(aim_figure, name=name)
 
         # track parameters and gradient distributions using Aim
         track_params_dists(model, run)
