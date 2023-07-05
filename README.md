@@ -5,7 +5,7 @@ This is a fork of [nanoGPT](https://github.com/karpathy/nanoGPT) that adds integ
 
 ## Code Changes
 
-See [this diff](https://github.com/karpathy/nanoGPT/compare/master...nfergu:nano_aim:master) for the code changes made to nanoGPT to track experiments in Aim.
+See [this diff]([https://github.com/karpathy/nanoGPT/compare/master...nfergu:nano_aim:master](https://github.com/karpathy/nanoGPT/compare/master...nfergu:nano_aim:master#diff-ed183d67207df065a11e1289f19d34cc2abbc5448dea952683cfe9728c342b95)) for the code changes made to nanoGPT to track experiments in Aim.
 
 ## Getting Started
 
