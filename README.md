@@ -16,5 +16,4 @@ See [this diff](https://github.com/karpathy/nanoGPT/compare/master...nfergu:nano
 
 ## Demo
 
-![Screen Recording 2023-07-05 at 00 17 36](https://github.com/nfergu/nano_aim/assets/1291583/9a2f783f-8511-4475-96bb-b5bb6711e5aa)
-
+![Screen Recording 2023-07-05 at 00 17 36](https://github.com/nfergu/nano_aim/assets/1291583/20a0d3c7-3c92-4228-9e77-8c3d3e1d7024)
